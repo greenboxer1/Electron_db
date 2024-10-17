@@ -1,0 +1,17 @@
+{
+  "name": "electron-form",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sequelize": "^6.37.4",
+    "sqlite3": "^5.1.7",
+    "electron": "^33.0.1"
+  }
+}

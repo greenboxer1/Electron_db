@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Ввод данных</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="mt-5">Ввод данных</h2>
+    <form id="data-form">
+      <div class="form-group">
+        <label for="name">Данные</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+    <button id="get-data" class="btn btn-secondary mt-3">Получить данные</button>
+    <div id="data-list" class="mt-3" style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
+      <div id="data-items"></div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
